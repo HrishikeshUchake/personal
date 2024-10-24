@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hrishikesh Uchake Portfolio</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -15,7 +13,7 @@
             <div class="logo">Hrishikesh</div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" class="active">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="experience.html">Experience</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -23,12 +21,18 @@
         </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Hi, I'm Hrishikesh!</h1>
-            <p>A Third-Year Computer Science Student Specializing in <span class="highlight">Web & Mobile Development</span></p>
-            <a href="HrishikeshUchakeResume.pdf" class="btn-primary">Download Resume</a>
-            <a href="projects.html" class="btn-secondary">Explore Projects</a>
+    <section class="about">
+        <div class="about-container">
+            <h1 class="section-title">About Me</h1>
+            <p class="about-text">I am a third-year Computer Science student at Iowa State University with hands-on experience in mobile and web development. I have a passion for building innovative solutions that solve real-world problems. I am proficient in Java, Kotlin, Spring Boot, and MySQL, and continuously learning new technologies like AI and cloud computing.</p>
+            <div class="skills">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li><strong>Programming Languages:</strong> Java, Python, Kotlin, JavaScript</li>
+                    <li><strong>Frameworks & Tools:</strong> Spring Boot, Jetpack Compose, HTML/CSS, WebSockets, MySQL, Postman, Git</li>
+                    <li><strong>Core Competencies:</strong> Backend Development, Frontend Development, API Testing, System Optimization</li>
+                </ul>
+            </div>
         </div>
     </section>
     
@@ -40,7 +44,5 @@
         </div>
         <p>&copy; 2024 Hrishikesh Uchake. All Rights Reserved.</p>
     </footer>
-
-    <script src="assets/js/main.js"></script>
 </body>
 </html>
